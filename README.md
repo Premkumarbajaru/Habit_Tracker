@@ -2,21 +2,6 @@
 
 A minimal Flutter habit tracking application with local data persistence using SharedPreferences.
 
-## 📋 Task Information
-
-**Task Level:** 3  
-**Task ID:** C  
-**Task Name:** Habit Tracker (SharedPreferences)
-
-### Why This Task?
-
-I selected this task to demonstrate:
-- **Local Data Persistence**: Implementing SharedPreferences for offline storage without backend complexity
-- **State Management**: Managing app state efficiently with setState and StatefulWidget
-- **Clean Code**: Writing minimal, optimized code in a single file (240 lines approx)
-- **Real-world Application**: Building a practical app that solves daily habit tracking needs
-- **Flutter Fundamentals**: Showcasing core Flutter concepts like widgets, dialogs, and data serialization
-
 ## ✨ Features
 
 ### Core Features (Task Requirements)
@@ -194,5 +179,13 @@ final completion = habits.isEmpty ? 0 :
 - List manipulation and data persistence
 - Error handling and edge cases
 - Material Design 3 implementation
+
+# Output Screenshot
+
+<img width="1080" height="2400" alt="Image" src="https://github.com/user-attachments/assets/36e6b32e-e70e-41e8-bbcb-6f3a8b9070de" />
+
+<img width="1080" height="2400" alt="Image" src="https://github.com/user-attachments/assets/88c4b8e3-a310-4065-bd7b-ed0af429fff2" />
+
+<img width="1080" height="2400" alt="Image" src="https://github.com/user-attachments/assets/47563f34-acf2-46f6-b838-e70c1e1aa652" />
 
 **Note:** This is a minimal implementation focusing on core functionality without unnecessary complexity. The entire app runs from a single file with only one external dependency.
